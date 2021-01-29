@@ -42,3 +42,6 @@ A thread object that continuously randomly picks ingredients and requests to fil
 Object that controls getting and giving ingredients. 
 1. If table if empty, an agent can place ingredients to fill the table. Otherwise it is forced to wait. 
 2. If a table has ingredients, it checks if the requesting chef has the ingredient to make a full sandwich. If it does then ingredients are given to that chef and the table is cleared. Otherwise, the chef is forced to wait.
+
+### Diagrams
+UML class and sequence diagrams have been included
