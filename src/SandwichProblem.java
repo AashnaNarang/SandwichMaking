@@ -1,6 +1,14 @@
 
+/**
+ * 
+ * @author Aashna Narang Class used to test the Sandwich Problem.
+ */
 public class SandwichProblem {
-
+	/**
+	 * Application's entry point. Create and start threads.
+	 * 
+	 * @param args An array of command-line arguments for the application
+	 */
 	public static void main(String[] args) {
 		Food[] ingredients = Food.values();
 		Thread chef1, chef2, chef3, agent;
@@ -14,5 +22,4 @@ public class SandwichProblem {
 		chef3.start();
 		agent.start();
 	}
-
 }
